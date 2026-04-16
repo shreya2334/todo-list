@@ -29,14 +29,14 @@ This app allows users to manage daily tasks efficiently with real-time updates a
 
 ### Adding Tasks
 
-![Adding Tasks](screenshots/adding-task.png)
+![Adding Tasks](screenshots/adding-tasks.png)
 
 ### Completed Tasks
 
 ![Completed Tasks](screenshots/completed-tasks.png)
 
 ### Task Statistics
-#### Remaining - 2  Completed - 3 Total - 5
+#### Remaining - 2  |  Completed - 3  |  Total - 5
 ![Stats](screenshots/task-statistics.png)
 
 ### Inline Editing
@@ -76,7 +76,7 @@ User Input → Update Tasks Array → Save to localStorage → Update UI
 1. Clone the repository
 
 ```bash id="k9f2d1"
-git clone https://github.com/your-username/todo-app.git
+git clone https://github.com/shreya2334/todo-list
 ```
 
 2. Open the project folder
