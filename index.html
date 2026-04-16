@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do App</title> 
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+    <header id="main-header">
+        <div class="container">
+            <h1>Today</h1>
+            <form action="" id="todo-form">
+                <label for="task-input"></label>
+                    <input type="text" id="task-input" name="task-name" placeholder="e.g. Go for a walk" autofocus>
+    <button type="submit">Add task</button>
+</form>
+    </header>
+    <section>
+        <div class="container" id="main-content">
+            <ul class="stats">
+                <li>
+                    <span>Remaining</span>
+                    <span id="remaining-tasks">0</span>
+                </li>
+                <li>
+                    <span>Completed</span>
+                    <span id="completed-tasks">0</span>
+                </li>
+                <li>
+                    <span>Total</span>
+                    <span id="total-tasks">0</span>
+                </li>
+            </ul>
+
+            <ul class="todos">
+                <p class="empty-state">No tasks yet</p>
+            </ul>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
